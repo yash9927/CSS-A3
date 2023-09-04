@@ -1,0 +1,231 @@
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    background-color: gray;
+   
+   
+}
+.nav-bar
+{
+    width: 100%;
+    /* justify-content: center;
+   align-items: center; */
+   position: relative;
+   left: 35%;
+   
+}
+.nav-box
+{
+    font-weight: 900;
+    font-size: large;
+    font-weight: 900;
+    height: 120px;
+    width: 450px;
+    color: rgba(222, 11, 152, 0.34);
+    border: 2px solid red;
+    border-width: 8px;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+   
+    font: italic;
+    text-shadow: 2px 2px  brown;
+    padding: 4px;
+    box-shadow:6px 8px purple;
+    line-height: 1.5;
+    background-color: white;
+    font-style: italic;
+}
+.box1{
+    
+    font-weight: 900;
+    font-size: large;
+    box-shadow:6px 8px purple;
+    border: 2px solid red;
+    border-width: 8px;
+    border-radius: 8px;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgba(17, 0, 255, 0.37);
+    text-shadow: 1px 2px  brown;
+    line-height: 1.5;
+background-color: white;
+}
+.box2{
+   margin-left: 640px;
+   background-color: white;
+    box-shadow:6px 8px purple;
+    border: 2px solid red;
+    border-width: 8px;
+    border-radius: 8px;
+    height: 160px;
+    width: 220px;
+    
+   padding-left: 40px;
+   padding-top: 40px;
+
+    
+   
+}
+
+.container1
+{
+  display: flex;
+}
+
+main{
+    border: 6px solid green;
+    margin-top: 8px;
+    
+}
+.container2
+{
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.box3
+{
+    font-weight: 900;
+    font-size: large;
+    box-shadow:6px 8px purple;
+    border: 2px solid red;
+    border-width: 8px;
+    border-radius: 8px;
+    height: 230px;
+    width: 250px;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+    color: rgba(17, 0, 255, 0.37);
+    text-shadow: 1px 2px  brown;
+    
+background-color: white;
+}
+.box4 input{
+     text-align: center;
+}
+.box4
+{
+   
+    font-weight: bold;
+    font-size: large;
+      margin-left: 640px;
+    box-shadow:6px 8px purple;
+    border: 2px solid red;
+    border-width: 8px;
+    border-radius: 8px;
+    height: 230px;
+    width: 270px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgba(17, 0, 255, 0.37);
+    text-shadow: 1px 2px  brown;
+    line-height: 1.5;
+background-color: white;
+}
+.red
+{
+    background-color: red;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.container3
+{    
+    margin-left: 300px;
+    width: 700px;
+    position: relative;
+    justify-items: center;
+    margin-top: 40px;
+    
+    border: 2px solid green;
+    border-width: 4px;
+   
+    outline: 5px solid purple;
+    z-index: 1;
+    
+   
+    
+}
+.area{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.area1
+{
+   
+    width: 345px;
+    height: 300px;
+    border: 2px solid green;
+    background-color: rgb(231, 231, 120);
+    border-width: 3px;
+    text-align: center;
+    line-height: 2.5;
+    font-style: italic;
+   font-weight: 800;
+    
+}
+.area2
+{
+    width: 345px;
+    height: 300px;
+    border: 2px solid green;
+    background-color: rgb(231, 231, 120);
+    border-width: 3px;
+    text-align: center;
+    line-height: 2.5;
+    font-style: italic;
+   font-weight: 800;
+   
+}
+
+.container3 h2{
+   padding-top: 20px;
+   
+}
+.Area
+{
+    width: 700px;
+    height: 300px;
+    border: 2px solid green;
+    background-color: rgb(231, 231, 120);
+    border-width: 3px;
+   z-index: 1;
+   position: relative;
+   padding-left: 10px;
+   line-height: 2.5;
+   text-align: center;
+   font-style: italic;
+   font-weight: 800;
+}
+.note{
+    font-style: italic;
+    width: 450px;
+    height: 100px;
+    box-shadow:6px 8px purple;
+    border: 2px solid red;
+    border-width: 8px;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 35px;
+    z-index: 1;
+    margin-left: 380px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: brown;
+    background-color: chartreuse;
+}
